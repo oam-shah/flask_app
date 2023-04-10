@@ -23,4 +23,4 @@ def predict_placement():
     return render_template('index.html', result=result,input_data1=input_data1)
 
 if __name__ == '__main__':
-    app.run(host='127.16.0.1', port=5500)
+    app.run(host='0.0.0.0', port=5000)
